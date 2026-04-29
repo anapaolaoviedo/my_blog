@@ -1,0 +1,48 @@
+#root {
+  width: 100%;
+  max-width: 1100px;
+  text-align: center;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+body {
+  margin: 0;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #fff6fb;
+}
+
+.card-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 2rem;
+}
+
+.card {
+  width: 280px;
+  padding: 1.8rem;
+  background-color: #ffe3ef;
+  border-radius: 16px;
+}
+
+.card img {
+  width: 140px;
+  height: 140px;
+  object-fit: cover;
+  border-radius: 50%;
+  margin-bottom: 1rem;
+}
+
+.card h1 {
+  font-size: 22px;
+  color: #c71585;
+  margin-bottom: 0.5rem;
+}
+
+.card p {
+  font-size: 16px;
+  color: #7a5c8d;
+}
